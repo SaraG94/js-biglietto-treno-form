@@ -1,29 +1,20 @@
-//prendere i kilometri e l'età
+//prendere i kilometri, l'età e bottone
 const inputKwElement = document.querySelector('input#km')
 
-console.log(inputKwElement)
-
 const ageElement = document.getElementById('age')
-console.log(ageElement)
-
-//prendere bottone
 
 const buttonElement = document.getElementById('pulsante')
-console.log(buttonElement)
 
 //ascoltare bottone
 
 buttonElement.addEventListener('click',function(){
-    console.log('applica modifiche')
-
+   
     //prendere il valore dei km inseriti dall'utente
     let kwSelect = inputKwElement.value
-    console.log(kwSelect)
 
     //prendere il valore dell'età inseriti dall'utente
     let ageSelect = ageElement.value
-    console.log(ageSelect)
-
+   
     //calcorale prezzo
     
     const KWPRICE = 0.21 
