@@ -19,19 +19,19 @@ buttonElement.addEventListener('click',function(){
     
     const KWPRICE = 0.21 
     //prima soluzione
-    //if (ageSelect='1') {
+    //if (ageSelect=='1') {
     //    console.log(ageSelect.value='1')
     //    let minorenne =((kwSelect*KWPRICE)*0.8);
     //    console.log(minorenne)
     //    document.getElementById('price').innerHTML= minorenne +'€' +' '+'importo da pagare scontato del 20%';
 
-    //} else if (ageSelect='2') {
+    //} else if (ageSelect=='2') {
     //    console.log(ageSelect.value='2')
     //    let adult =(kwSelect*KWPRICE);
     //    console.log(adult)
     //    document.getElementById('price').innerHTML= adult +'€' +' ';
     //}
-    //else if (ageSelect='3') {
+    //else if (ageSelect=='3') {
     //    console.log('3')
     //    let over65 =((kwSelect*KWPRICE)*0.6);
     //    console.log(over65)
